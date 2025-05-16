@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Your Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Fixed Header -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <span class="logo-text">SL</span>
+            </div>
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="assets/resume.pdf" class="resume-btn" download><i class="fas fa-download"></i> Resume</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <section class="projects-section">
+            <div class="container">
+                <div class="projects-header">
+                    <h1>My <span class="highlight">Projects</span></h1>
+                    <p class="projects-intro">Here are some of my recent works and personal projects.</p>
+                </div>
+
+                <div class="projects-filter">
+                    <button class="filter-btn active" data-filter="all">
+                        <i class="fas fa-th-large"></i>All
+                    </button>
+                    <button class="filter-btn" data-filter="web">
+                        <i class="fas fa-globe"></i>Web Apps
+                    </button>
+                    <button class="filter-btn" data-filter="mobile">
+                        <i class="fas fa-mobile-alt"></i>Mobile
+                    </button>
+                    <button class="filter-btn" data-filter="design">
+                        <i class="fas fa-paint-brush"></i>Design
+                    </button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://www.mbacsi.com/wp-content/uploads/2020/05/project-management-scaled.jpg" alt="React Project">
+                        </div>
+                        <div class="project-content">
+                            <h3>React Project</h3>
+                            <p>This is a React-based project showcasing modern web development practices. It includes reusable components, state management, and responsive design.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>JavaScript</span>
+                                <span>CSS</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Bsreelaxmee/react" target="_blank" rel="noopener noreferrer" class="btn view-details">View Details</a>
+                                <div class="project-external-links">
+                                    <a href="https://github.com/Bsreelaxmee/react" target="_blank" class="project-link" title="Source Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="https://www.simplilearn.com/ice9/free_resources_article_thumb/project_management_coursefees.jpg" alt="Demo Portfolio Project">
+                        </div>
+                        <div class="project-content">
+                            <h3>Demo Portfolio Project</h3>
+                            <p>This is a demo portfolio project built to showcase personal and professional work. It includes a clean design, interactive elements, and responsive layout.</p>
+                            <div class="project-tags">
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/ThugSai2000/githubteaching" target="_blank" rel="noopener noreferrer" class="btn view-details">View Details</a>
+                                <div class="project-external-links">
+                                    <a href="https://github.com/ThugSai2000/githubteaching" target="_blank" class="project-link" title="Source Code">
+                                        <i class="fab fa-github"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <!-- GitHub Icon -->
+                <a href="https://github.com/Bsreelaxmee" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+                <!-- LinkedIn Icon -->
+                <a href="https://www.linkedin.com/in/bsreelaxmee5577" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <!-- Instagram Icon -->
+                <a href="https://www.instagram.com/big_fun_galaxy/" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            <p class="copyright">&copy; 2025 B.Sree Laxmee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

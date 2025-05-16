@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- Ensures proper rendering and touch zooming on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    
+    <!-- Stylesheet Links -->
+    <!-- Main CSS file for custom styles -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Google Fonts for typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Fixed Header -->
+    <header>
+        <nav class="navbar">
+            <!-- Logo/Brand Name -->
+            <div class="logo">
+                <span class="logo-text">SL</span>
+            </div>
+            
+            <!-- Mobile Navigation Toggle Button (visible only on mobile) -->
+            <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <!-- Navigation Links -->
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <!-- Resume Download Button -->
+                <li>
+                    <a href="assets/resume.pdf" class="resume-btn" download>
+                        <i class="fas fa-download"></i> Resume
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <!-- Left Side: Text Content -->
+                    <div class="hero-text">
+                        <!-- Main Heading with Highlight -->
+                        <h1>Hi, I'm <span class="highlight">B.SREELAXMEE</span></h1>
+                        
+                        <!-- Typewriter Effect Text -->
+                        <h2 class="typewriter">
+                            <span class="txt-rotate" 
+                                  data-period="2000" 
+                                  data-rotate='["Web Developer", "UI/UX Designer", "Problem Solver"]'>
+                            </span>
+                        </h2>
+                        
+                        <!-- Brief Introduction -->
+                        <p class="hero-bio">
+                            I craft beautiful and functional web experiences, turning ideas into reality 
+                            through clean code and creative design solutions.
+                        </p>
+                        
+                        <!-- Call-to-Action Buttons -->
+                        <div class="hero-cta">
+                            <a href="projects.html" class="btn primary">View My Work</a>
+                            <a href="contact.html" class="btn secondary">Get in Touch</a>
+                        </div>
+                        
+                        <!-- Social Media Links -->
+                        <div class="social-links">
+                            <a href="https://github.com/Bsreelaxmee" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/bsreelaxmee5577" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="https://www.instagram.com/big_fun_galaxy/" target="_blank" aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Right Side: Profile Image -->
+                    <div class="hero-image">
+                        <div class="profile-container">
+                            <!-- Profile Image with Background Shape -->
+                            <img src="https://freedesignfile.com/upload/2017/06/Working-women-Stock-Photo-06.jpg" alt="B.SREE LAXMEE" class="profile-img">
+                            <div class="background-shape"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Other Sections -->
+        <section class="skills-section">
+            <div class="container">
+                <div class="skills-grid">
+                    <!-- Skill Card 1 -->
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Creating responsive and dynamic websites using modern technologies.</p>
+                    </div>
+                    
+                    <!-- Skill Card 2 -->
+                    <div class="skill-card">
+                        <i class="fas fa-palette"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Designing intuitive and beautiful user interfaces and experiences.</p>
+                    </div>
+                    
+                    <!-- Skill Card 3 -->
+                    <div class="skill-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Responsive Design</h3>
+                        <p>Building websites that work seamlessly across all devices.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <!-- Call-to-Action Text -->
+            <div class="footer-text">
+                <p>Let's create something amazing together</p>
+            </div>
+            
+            <!-- Social Media Links -->
+            <div class="social-links">
+                <a href="https://github.com/Bsreelaxmee" target="_blank" aria-label="GitHub">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/bsreelaxmee5577" target="_blank" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/big_fun_galaxy/" target="_blank" aria-label="Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+            
+            <!-- Copyright Notice -->
+            <p class="copyright">&copy; 2025 B.Sree Laxmee. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript Files -->
+    <script src="js/script.js"></script>
+</body>
+</html>
